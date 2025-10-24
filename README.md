@@ -15,15 +15,15 @@
 
 - 🤝 I’m looking for help with **projects**
 
-- 👨‍💻 All of my projects are available at [almostalok.netlify.com](almostalok.netlify.com)
+- 👨‍💻 All of my projects are available at [almostalok.tech](almostalok.tech)
 
-- 📝 I regularly write articles on [almostalokblogs.netlify.com](almostalokblogs.netlify.com)
+- 📝 I regularly write articles on [almostalokblogs.tech](almostalokblogs.tech)
 
 - 💬 Ask me about **Everything tech**
 
 - 📫 How to reach me **almostalok@gmail.com**
 
-- 📄 Know about my experiences [almostalokresume.netlify.com](almostalokresume.netlify.com)
+- 📄 Know about my experiences [almostalokresume.tech](almostalok.tech)
 
 - ⚡ Fun fact **I don't think i am funny**
 
