@@ -34,7 +34,7 @@
 - 📝 I regularly write articles on [almostalokblogs.tech](https://almostalokblogs.tech)
 - 💬 Ask me about **Everything tech**
 - 📫 How to reach me: **almostalok@gmail.com**
-- 📄 Know about my experiences: [almostalokresume.tech](https://almostalok.tech)
+- 📄 Know about my experiences: [almostalokresume.tech](https://almostalokresume.tech)
 - ⚡ Fun fact: **I don't think I am funny**
 
 <br clear="right" />
@@ -92,7 +92,7 @@
   <a href="https://twitter.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
   <a href="https://instagram.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://medium.com/@almostalok" target="blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-  <a href="https://dev.to/almosatlok" target="blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV.to" /></a>
+  <a href="https://dev.to/almostalok" target="blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV.to" /></a>
   <a href="https://hashnode.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Hashnode" /></a>
 </p>
 <p align="center">
