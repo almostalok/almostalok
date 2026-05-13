@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alok%20Kumar%20Singh&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=%E2%9C%A8%20Builder%20of%20Useful%20Chaos%20%7C%20almostalok%20%E2%9C%A8&descSize=20&descAlignY=62" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&width=800&lines=Hey%2C+I%27m+Alok+%F0%9F%91%8B;I+ship+products%2C+not+just+repos+%F0%9F%9A%A2;Hospate+is+my+current+battlefield+%F0%9F%A7%AA;I+turn+ideas+into+deployments+%E2%9A%A1;Scroll+slowly%2C+there+are+easter+eggs+below+%F0%9F%91%87" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&width=800&lines=Hey%2C+I%27m+Alok+%F0%9F%91%8B;I+ship+products%2C+not+just+repos+%F0%9F%9A%A2;Hospate+is+my+current+battlefield+%E2%9A%94%EF%B8%8F;I+turn+ideas+into+deployments+%E2%9A%A1;Scroll+slowly%2C+there+are+easter+eggs+below+%F0%9F%91%87" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">
-  <code>frontend-first mindset</code> • <code>backend-built discipline</code> • <code>product-focused execution</code>
+  <code>frontend-first mindset</code> • <code>backend-driven discipline</code> • <code>product-focused execution</code>
 </p>
 
 ---
