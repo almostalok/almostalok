@@ -1,7 +1,7 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alok%20Kumar%20Singh&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=%E2%9C%A8%20Innovator%20%7C%20Full%20Stack%20Developer%20%7C%20India%20%E2%9C%A8&descSize=20&descAlignY=62" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alok%20Kumar%20Singh&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=%E2%9C%A8%20Builder%20of%20Useful%20Chaos%20%7C%20almostalok%20%E2%9C%A8&descSize=20&descAlignY=62" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Alok+Kumar+Singh+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%F0%9F%8C%9F;Tech+Innovator+%F0%9F%92%A1;Always+Building+Cool+Stuff+%E2%9A%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&width=800&lines=Hey%2C+I%27m+Alok+%F0%9F%91%8B;I+ship+products%2C+not+just+repos+%F0%9F%9A%A2;Hospate+is+my+current+battlefield+%E2%9A%94%EF%B8%8F;I+turn+ideas+into+deployments+%E2%9A%A1;Scroll+slowly%2C+there+are+easter+eggs+below+%F0%9F%91%87" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -10,6 +10,14 @@
   <a href="https://twitter.com/almostalok" target="blank">
     <img src="https://img.shields.io/twitter/follow/almostalok?logo=twitter&style=for-the-badge&color=1DA1F2" alt="Twitter Follow" />
   </a>
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/almostalok?style=for-the-badge&logo=github&color=7C3AED" alt="GitHub Followers" />
+</p>
+
+<p align="center">
+  <a href="https://almostalok.tech"><img src="https://img.shields.io/badge/Portfolio-Live%20Radar-111827?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio Radar" /></a>
+  <a href="https://almostalokblogs.tech"><img src="https://img.shields.io/badge/Writing-Ship%20Logs-0F766E?style=flat-square&logo=hashnode&logoColor=white" alt="Writing Ship Logs" /></a>
+  <a href="https://almostalokresume.tech"><img src="https://img.shields.io/badge/Resume-Open%20Mission%20File-7C2D12?style=flat-square&logo=readme&logoColor=white" alt="Open Mission File" /></a>
 </p>
 
 ---
@@ -20,22 +28,36 @@
   <img src="https://github-profile-trophy.vercel.app/?username=almostalok&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1" alt="almostalok trophies" />
 </p>
 
+<details>
+  <summary><b>Tap for a tiny scoreboard story</b></summary>
+  <br />
+  These trophies are my side-effects of consistency: building in public, fixing bugs at odd hours, and saying "yes" to hard problems.
+</details>
+
 ---
 
 ## 🚀 About Me
 
 <img align="right" alt="Coding" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
-- 🔭 I'm currently working on **Hospate**
-- 🌱 I'm currently learning **Full Stack Development**
-- 👯 I'm looking to collaborate on **Open Source projects**
-- 🤝 I'm looking for help with **projects**
-- 👨‍💻 All of my projects are available at [almostalok.tech](https://almostalok.tech)
-- 📝 I regularly write articles on [almostalokblogs.tech](https://almostalokblogs.tech)
-- 💬 Ask me about **Everything tech**
-- 📫 How to reach me: **almostalok@gmail.com**
-- 📄 Know about my experiences: [almostalokresume.tech](https://almostalokresume.tech)
-- ⚡ Fun fact: **I don't think I am funny**
+- 🔭 **Now shipping:** Hospate &mdash; cleaner workflows for real people, not dashboards for demos.
+- 🌱 **Current upgrade quest:** Full-stack depth with better architecture instincts.
+- 👯 **Collab mode:** Open-source projects where code solves an actual pain point.
+- 🤝 **Need backup on:** Product feedback loops, DX polish, and launch strategy.
+- 👨‍💻 **Build log:** [almostalok.tech](https://almostalok.tech)
+- 📝 **Thoughts + experiments:** [almostalokblogs.tech](https://almostalokblogs.tech)
+- 💬 **Ping me for:** Product engineering, web performance, and dev career growth.
+- 📫 **Fastest contact:** **almostalok@gmail.com**
+- 📄 **Experience map:** [almostalokresume.tech](https://almostalokresume.tech)
+- ⚡ **Fun fact:** My "quick fix" tickets usually evolve into full features.
+
+<details>
+  <summary><b>Interactive mode: choose your path</b></summary>
+  <br />
+  🔹 Want to collaborate? Jump to <a href="#-connect-with-me">Connect With Me</a><br />
+  🔹 Want proof-of-work? Check <a href="#-github-stats">GitHub Stats</a><br />
+  🔹 Want to challenge me? Pick a platform in <a href="#-coding-profiles">Coding Profiles</a>
+</details>
 
 <br clear="right" />
 
@@ -53,6 +75,10 @@
   <img src="https://skillicons.dev/icons?i=graphql,electron,figma,jest,nestjs,spring,arduino,selenium&perline=10" alt="Other tools" />
 </p>
 
+<p align="center">
+  <code>frontend-first mindset</code> &bull; <code>backend-driven discipline</code> &bull; <code>product-focused execution</code>
+</p>
+
 ---
 
 ## 📊 GitHub Stats
@@ -66,6 +92,12 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=almostalok&theme=radical&hide_border=true&background=0D1117" alt="almostalok streak" />
 </p>
+
+<details>
+  <summary><b>How I read this section</b></summary>
+  <br />
+  Stats are not the goal; momentum is. If streaks dip, quality usually rises in silent project sprints.
+</details>
 
 ---
 
@@ -82,6 +114,8 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/almostalok/almostalok/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
+
+<p align="center"><i>Yes, even my commits get chased.</i></p>
 
 ---
 
@@ -120,12 +154,16 @@
   <a href="https://www.topcoder.com/members/almostalok" target="blank"><img src="https://img.shields.io/badge/Topcoder-29A8E0?style=for-the-badge&logo=Topcoder&logoColor=white" alt="Topcoder" /></a>
 </p>
 
+<p align="center"><b>Pick a platform, drop a challenge, let's duel in logic.</b></p>
+
 ---
 
 ## ✍️ Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
+
+<p align="center"><i>Auto-updates from my writing feed — fresh notes when I publish.</i></p>
 
 ---
 
@@ -140,6 +178,8 @@
     <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Ko-fi" />
   </a>
 </p>
+
+<p align="center"><sub>Every coffee = one more late-night feature shipped.</sub></p>
 
 ---
 
