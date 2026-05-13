@@ -40,7 +40,7 @@
 
 <img align="right" alt="Coding" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
-- 🔭 **Now shipping:** Hospate — cleaner workflows for real people, not dashboards for demos.
+- 🔭 **Now shipping:** Hospate &mdash; cleaner workflows for real people, not dashboards for demos.
 - 🌱 **Current upgrade quest:** Full-stack depth with better architecture instincts.
 - 👯 **Collab mode:** Open-source projects where code solves an actual pain point.
 - 🤝 **Need backup on:** Product feedback loops, DX polish, and launch strategy.
@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">
-  <code>frontend-first mindset</code> • <code>backend-driven discipline</code> • <code>product-focused execution</code>
+  <code>frontend-first mindset</code> &bull; <code>backend-driven discipline</code> &bull; <code>product-focused execution</code>
 </p>
 
 ---
