@@ -163,7 +163,7 @@
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-<p align="center"><i>Auto-updates from my writing feed — fresh notes when I publish.</i></p>
+<p align="center"><i>Auto-updates from my writing feed — fresh notes when I publish.smile tough</i></p>
 
 ---
 
