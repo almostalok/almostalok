@@ -179,7 +179,7 @@
   </a>
 </p>
 
-<p align="center"><sub>Every coffee = one more late-night feature shipped.</sub></p>
+<p align="center"><sub>Every coffee = one more late-night feature shipped.Change is comming!</sub></p>
 
 ---
 
