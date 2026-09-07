@@ -1,173 +1,265 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alok%20Kumar%20Singh&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=%E2%9C%A8%20Builder%20of%20Useful%20Chaos%20%7C%20almostalok%20%E2%9C%A8&descSize=20&descAlignY=62" />
+<!-- =========================================================
+     ALMOSTALOK // PROFILE README
+     Terminal-first. Slightly unhinged. Actually useful.
+     ========================================================= -->
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&width=800&lines=Hey%2C+I%27m+Alok+%F0%9F%91%8B;I+ship+products%2C+not+just+repos+%F0%9F%9A%A2;Hospate+is+my+current+battlefield+%E2%9A%94%EF%B8%8F;I+turn+ideas+into+deployments+%E2%9A%A1;Scroll+slowly%2C+there+are+easter+eggs+below+%F0%9F%91%87" alt="Typing SVG" />
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=190&section=header&text=almostalok&fontSize=58&fontColor=fff&animation=twinkling&fontAlignY=38&desc=builder%20of%20useful%20chaos%20%E2%80%94%20%40almostalok&descSize=19&descAlignY=64" />
+
+<img src="./assets/almostalok-terminal.gif" width="96%" alt="Animated almostalok terminal profile" />
+
+<p>
+  <a href="https://almostalok.tech"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://almostalokblogs.tech"><img src="https://img.shields.io/badge/WRITING-SHIP_LOGS-0F766E?style=for-the-badge&logo=hashnode&logoColor=white" /></a>
+  <a href="https://almostalokresume.tech"><img src="https://img.shields.io/badge/RESUME-MISSION_FILE-7C2D12?style=for-the-badge&logo=readme&logoColor=white" /></a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=almostalok&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
-  &nbsp;
-  <a href="https://twitter.com/almostalok" target="blank">
-    <img src="https://img.shields.io/twitter/follow/almostalok?logo=twitter&style=for-the-badge&color=1DA1F2" alt="Twitter Follow" />
-  </a>
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/almostalok?style=for-the-badge&logo=github&color=7C3AED" alt="GitHub Followers" />
-</p>
-
-<p align="center">
-  <a href="https://almostalok.tech"><img src="https://img.shields.io/badge/Portfolio-Live%20Radar-111827?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio Radar" /></a>
-  <a href="https://almostalokblogs.tech"><img src="https://img.shields.io/badge/Writing-Ship%20Logs-0F766E?style=flat-square&logo=hashnode&logoColor=white" alt="Writing Ship Logs" /></a>
-  <a href="https://almostalokresume.tech"><img src="https://img.shields.io/badge/Resume-Open%20Mission%20File-7C2D12?style=flat-square&logo=readme&logoColor=white" alt="Open Mission File" /></a>
-</p>
+</div>
 
 ---
 
-## 🏆 GitHub Trophies
+## `$ whoami`
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=almostalok&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1" alt="almostalok trophies" />
-</p>
+```text
+                         .==-+**++=-
+                      -+%@@@@@@@@@@@@%#+:
+                    *@@@@@@@@@@@@@@@@@@@+
+                   @@@@@@@@@@@@@@@@@@@@@#
+                  -@@@@@@%#***++#%@@@@@@*
+                   %@@@*-:. ..:-=+*#@@@@@
+                   -@@=::.   ..:-+*##%@@=
+                    %+.+++*+-:-*%@@@%-#@
+                    +-:+*%%%+.*@%#@@@*+@=
+                    -::::-::. -#+--=+*-@*
+                     :-..  ..-:+@%+--+=-@.
+                      :--=*+=+*#@@@%*%#+.
+                       ==-----=+##**#@%-
+                  -+#%%#*+-..--=+*@@@%@@%#=
+                #@@@%@*#@@%***#@@@@@@@@@@@%
+               .+%@*=@#-+%@@@@@@@@@@@@@@@@%-
+               -=++****---=*#%@@@%@@@%%*
+             +***++++++---=+#%@@@@@@@@@@@@%#.
+          .+***###%##**#++==+**#%%#@@@@@@@@%%#*=:
+       .=+********+*###%#%@%#*+#@@@@@@@@@@%%######%#*-
+     .+***********++*****#@#%%%%%%%#@@%##########**#%%#:
+    .+*+++#**+*****+*****#@#*******#@%###########**@#%%#:
+   .=******#*++**********%@#######*#@%###########*#@#%%%*.
+   ++*#***#%***********#*%@#########@##########%#*%@@%@@#*
+  =*###%###%#*********###%@#########@#########%%%#@@@@@%#@+
+ :#*%%##%%%%#*********###%%#%%%####%@######%%%%@%%@@@@@%%@@.
+ *%##%@#%@%%*############%@%%%%####%@#####%%%@@@%%@@@@@@@@@+
+.%%%%#%@%%%%%%%########%%%@%%%%####%@%%%%%%%@@@@@@@@@@%@@@@%
+=%%%%%%@@@%%%%%%%##%%%%%%@@%%%%%%%%%@%%%%%%@@@@@@@@@@@@@@@%@:
 
-<details>
-  <summary><b>Tap for a tiny scoreboard story</b></summary>
-  <br />
-  These trophies are my side-effects of consistency: building in public, fixing bugs at odd hours, and saying "yes" to hard problems.
-</details>
+                         almostalok
+                  > BUILDER OF USEFUL CHAOS
+```
+
+```bash
+$ neofetch --almostalok
+
+Name        > Alok Kumar Singh
+Handle      > @almostalok
+Role        > Developer / Product Builder
+Currently   > Building Hospate
+Focus       > Useful products, real people
+Philosophy  > Ship > perfect
+Learning    > Architecture + systems
+Hobbies     > Code, coffee, ideas, overthinking
+Fun fact    > My "quick fixes" tend to become full features.
+
+$ echo $MOOD
+> productive enough to be dangerous
+```
 
 ---
 
-## 🚀 About Me
+## `$ system status`
 
-<img align="right" alt="Coding" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+```text
+BUILDING       > Hospate                         [█████████░] 90%
+LEARNING       > System Design                   [███████░░░] 70%
+EXPLORING      > Product + Engineering           [██████░░░░] 60%
+OPEN_TO        > Interesting problems             [████████░░] 80%
+SLEEP          > command not found               [░░░░░░░░░░]  0%
+COFFEE         > absolutely required              [██████████] 100%
+```
 
-- 🔭 **Now shipping:** Hospate &mdash; cleaner workflows for real people, not dashboards for demos.
-- 🌱 **Current upgrade quest:** Full-stack depth with better architecture instincts.
-- 👯 **Collab mode:** Open-source projects where code solves an actual pain point.
-- 🤝 **Need backup on:** Product feedback loops, DX polish, and launch strategy.
-- 👨‍💻 **Build log:** [almostalok.tech](https://almostalok.tech)
-- 📝 **Thoughts + experiments:** [almostalokblogs.tech](https://almostalokblogs.tech)
-- 💬 **Ping me for:** Product engineering, web performance, and dev career growth.
-- 📫 **Fastest contact:** **almostalok@gmail.com**
-- 📄 **Experience map:** [almostalokresume.tech](https://almostalokresume.tech)
-- ⚡ **Fun fact:** My "quick fix" tickets usually evolve into full features.
-
-<details>
-  <summary><b>Interactive mode: choose your path</b></summary>
-  <br />
-  🔹 Want to collaborate? Jump to <a href="#-connect-with-me">Connect With Me</a><br />
-  🔹 Want proof-of-work? Check <a href="#-github-stats">GitHub Stats</a><br />
-  🔹 Want to challenge me? Pick a platform in <a href="#-coding-profiles">Coding Profiles</a>
-</details>
-
-<br clear="right" />
+> `sleep.exe` has been deprecated. Nobody knows why. Nobody is fixing it.
 
 ---
 
-## 🛠️ Tech Stack
+## `$ currently_building`
+
+### ⚔️ Hospate
+
+Cleaner workflows for real people — **not another dashboard built solely to impress a screenshot.**
+
+```text
+idea
+  ↓
+product decision
+  ↓
+architecture
+  ↓
+code
+  ↓
+bug
+  ↓
+fix
+  ↓
+ship
+  ↓
+"wait... this actually works"
+```
+
+**Current upgrade quest:** full-stack depth + better architecture instincts.
+
+**Collab mode:** open-source projects where code solves an actual pain point.
+
+**Need backup on:** product feedback loops, DX polish and launch strategy.
+
+---
+
+## `$ tech_stack --compact`
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,python,java&perline=10" alt="Core stack" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis,docker,aws,git,linux,firebase,tailwind&perline=10" alt="DevOps and databases" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=graphql,electron,figma,jest,nestjs,spring,arduino,selenium&perline=10" alt="Other tools" />
+  <br /><br />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis,docker,aws,git,linux,firebase,tailwind&perline=10" alt="Databases and infrastructure" />
+  <br /><br />
+  <img src="https://skillicons.dev/icons?i=graphql,electron,figma,jest,nestjs,spring,arduino,selenium&perline=10" alt="Additional tools" />
 </p>
 
-<p align="center">
-  <code>frontend-first mindset</code> &bull; <code>backend-driven discipline</code> &bull; <code>product-focused execution</code>
-</p>
+```text
+frontend-first mindset  +  backend-driven discipline  +  product-focused execution
+```
 
 ---
 
-## 📊 GitHub Stats
+## `$ github --3d-build`
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=almostalok&show_icons=true&theme=radical&locale=en&hide_border=true&bg_color=0D1117" alt="almostalok stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=almostalok&show_icons=true&theme=radical&locale=en&layout=compact&hide_border=true&bg_color=0D1117" alt="top languages" />
-</div>
+### 🏙️ Contribution Skyline
+
+This is the **3D version of the GitHub contribution calendar**. It is generated automatically by GitHub Actions and committed back into the profile repository.
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=almostalok&theme=radical&hide_border=true&background=0D1117" alt="almostalok streak" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="96%" alt="3D GitHub contribution graph" />
 </p>
 
 <details>
-  <summary><b>How I read this section</b></summary>
-  <br />
-  Stats are not the goal; momentum is. If streaks dip, quality usually rises in silent project sprints.
+<summary><b>⚙️ How the 3D graph works</b></summary>
+
+<br />
+
+The companion workflow is included at:
+
+```text
+.github/workflows/profile-3d.yml
+```
+
+Run it once from **GitHub → Actions → GitHub-Profile-3D-Contrib → Run workflow**. The action then generates the `profile-3d-contrib/` SVGs and refreshes them daily.
+
 </details>
 
 ---
 
-## 📈 Activity Graph
+## `$ github --stats`
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=almostalok&show_icons=true&theme=radical&locale=en&hide_border=true&bg_color=0D1117" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=almostalok&show_icons=true&theme=radical&locale=en&layout=compact&hide_border=true&bg_color=0D1117" height="165" alt="Top languages" />
+</div>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=almostalok&theme=react-dark&bg_color=0D1117&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" alt="activity graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=almostalok&theme=radical&hide_border=true&background=0D1117" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=almostalok&theme=react-dark&bg_color=0D1117&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" width="96%" alt="GitHub activity graph" />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+## `$ git --commit-history`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/almostalok/almostalok/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/almostalok/almostalok/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 </p>
 
-<p align="center"><i>Yes, even my commits get chased.</i></p>
+<p align="center"><i>Yes. Even my commits get chased.</i></p>
 
 ---
 
-## 🌐 Connect With Me
+## `$ terminal --help`
+
+```text
+AVAILABLE COMMANDS
+
+  whoami              → know the human behind the commits
+  currently_building  → inspect current battlefield
+  tech_stack          → list weapons of choice
+  socials             → locate me on the internet
+  coding_profiles     → challenge me in public
+  life_advice         → highly questionable output
+  hire_me             → probably the most useful command
+  clear               → because clean terminals = clean minds
+
+$ life_advice
+> ship something useful before polishing the README.
+> yes, I realize the irony.
+```
+
+---
+
+## `$ connect --all`
 
 <p align="center">
-  <a href="https://linkedin.com/in/almostalok" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-  <a href="https://instagram.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://medium.com/@almostalok" target="blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-  <a href="https://dev.to/almostalok" target="blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV.to" /></a>
-  <a href="https://hashnode.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Hashnode" /></a>
+  <a href="https://linkedin.com/in/almostalok"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/almostalok"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a href="https://instagram.com/almostalok"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://medium.com/@almostalok"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
+  <a href="https://dev.to/almostalok"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
+  <a href="https://hashnode.com/almostalok"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" /></a>
 </p>
+
 <p align="center">
-  <a href="https://stackoverflow.com/users/almostalok" target="blank"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" /></a>
-  <a href="https://codepen.io/almostalok" target="blank"><img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" /></a>
-  <a href="https://codesandbox.com/almostalok" target="blank"><img src="https://img.shields.io/badge/CodeSandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB" alt="CodeSandbox" /></a>
-  <a href="https://kaggle.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
-  <a href="https://www.youtube.com/c/almostalok" target="blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
-  <a href="https://dribbble.com/almostalok" target="blank"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" alt="Dribbble" /></a>
-  <a href="https://www.behance.net/almostalok" target="blank"><img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance" /></a>
-  <a href="https://discord.gg/almostalok" target="blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://stackoverflow.com/users/almostalok"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" /></a>
+  <a href="https://codepen.io/almostalok"><img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" /></a>
+  <a href="https://codesandbox.com/almostalok"><img src="https://img.shields.io/badge/CodeSandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB" /></a>
+  <a href="https://kaggle.com/almostalok"><img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
+  <a href="https://www.youtube.com/c/almostalok"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
 </p>
 
 ---
 
-## 🏅 Coding Profiles
+## `$ coding_profiles --duel`
 
 <p align="center">
-  <a href="https://www.leetcode.com/almostalok" target="blank"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=%23d16c06" alt="LeetCode" /></a>
-  <a href="https://www.hackerrank.com/almostalok" target="blank"><img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" alt="HackerRank" /></a>
-  <a href="https://codeforces.com/profile/almostalok" target="blank"><img src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white" alt="Codeforces" /></a>
-  <a href="https://www.codechef.com/users/almostalok" target="blank"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" alt="CodeChef" /></a>
-  <a href="https://www.hackerearth.com/almostalok" target="blank"><img src="https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=HackerEarth&logoColor=Blue" alt="HackerEarth" /></a>
-  <a href="https://auth.geeksforgeeks.org/user/almostalok" target="blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
-  <a href="https://www.topcoder.com/members/almostalok" target="blank"><img src="https://img.shields.io/badge/Topcoder-29A8E0?style=for-the-badge&logo=Topcoder&logoColor=white" alt="Topcoder" /></a>
+  <a href="https://www.leetcode.com/almostalok"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=%23d16c06" /></a>
+  <a href="https://www.hackerrank.com/almostalok"><img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" /></a>
+  <a href="https://codeforces.com/profile/almostalok"><img src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white" /></a>
+  <a href="https://www.codechef.com/users/almostalok"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" /></a>
+  <a href="https://www.hackerearth.com/almostalok"><img src="https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=HackerEarth&logoColor=Blue" /></a>
+  <a href="https://auth.geeksforgeeks.org/user/almostalok"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" /></a>
+  <a href="https://www.topcoder.com/members/almostalok"><img src="https://img.shields.io/badge/Topcoder-29A8E0?style=for-the-badge&logo=Topcoder&logoColor=white" /></a>
 </p>
 
-<p align="center"><b>Pick a platform, drop a challenge, let's duel in logic.</b></p>
+<p align="center"><b>Pick a platform. Drop a challenge. Let's duel in logic.</b></p>
 
 ---
 
-## ✍️ Latest Blog Posts
+## `$ blog --tail`
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-<p align="center"><i>Auto-updates from my writing feed — fresh notes when I publish.smile tough</i></p>
+<p align="center"><i>Auto-updates from my writing feed — fresh notes when I publish.</i></p>
 
 ---
 
-## ☕ Support Me
+## `$ support --coffee`
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/almostalok">
@@ -179,8 +271,23 @@
   </a>
 </p>
 
-<p align="center"><sub>Every coffee = one more late-night feature shipped.Change is comming!</sub></p>
-
 ---
 
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  $ shutdown                                                  │
+│                                                              │
+│  "Still a work in progress...                               │
+│   but the commits are getting better."                      │
+│                                                              │
+│  made with ☕ + curiosity + questionable sleep schedules      │
+│                                                              │
+│  almostalok // end of process                                │
+└──────────────────────────────────────────────────────────────┘
+```
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
+
+</div>
