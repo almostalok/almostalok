@@ -9,10 +9,25 @@
 
 <img src="./assets/almostalok-terminal.gif" width="96%" alt="Animated almostalok terminal profile" />
 
+```text
+┌─[ almostalok@github ]─────────────────────────────────────────────────────────┐
+│                                                                             │
+│  $ boot --profile                                                           │
+│  [ OK ] identity loaded                                                     │
+│  [ OK ] coffee subsystem online                                             │
+│  [ OK ] questionable ideas detected                                        │
+│  [ OK ] shipping mode enabled                                              │
+│  [WARN] sleep.exe missing — proceeding anyway                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 <p>
   <a href="https://almostalok.tech"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://almostalokblogs.tech"><img src="https://img.shields.io/badge/WRITING-SHIP_LOGS-0F766E?style=for-the-badge&logo=hashnode&logoColor=white" /></a>
   <a href="https://almostalokresume.tech"><img src="https://img.shields.io/badge/RESUME-MISSION_FILE-7C2D12?style=for-the-badge&logo=readme&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=almostalok&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/almostalok?label=FOLLOWERS&style=for-the-badge&color=7C3AED" />
 </p>
 
 </div>
@@ -39,18 +54,18 @@
                 #@@@%@*#@@%***#@@@@@@@@@@@%
                .+%@*=@#-+%@@@@@@@@@@@@@@@@%-
                -=++****---=*#%@@@%@@@%%*
-             +***++++++---=+#%@@@@@@@@@@@@%#.
-          .+***###%##**#++==+**#%%#@@@@@@@@%%#*=:
-       .=+********+*###%#%@%#*+#@@@@@@@@@@%%######%#*-
-     .+***********++*****#@#%%%%%%%#@@%##########**#%%#:
-    .+*+++#**+*****+*****#@#*******#@%###########**@#%%#:
-   .=******#*++**********%@#######*#@%###########*#@#%%%*.
-   ++*#***#%***********#*%@#########@##########%#*%@@%@@#*
-  =*###%###%#*********###%@#########@#########%%%#@@@@@%#@+
- :#*%%##%%%%#*********###%%#%%%####%@######%%%%@%%@@@@@%%@@.
- *%##%@#%@%%*############%@%%%%####%@#####%%%@@@%%@@@@@@@@@+
-.%%%%#%@%%%%%%%########%%%@%%%%####%@%%%%%%%@@@@@@@@@@%@@@@%
-=%%%%%%@@@%%%%%%%##%%%%%%@@%%%%%%%%%@%%%%%%@@@@@@@@@@@@@@@%@:
+              +***++++++---=+#%@@@@@@@@@@@@%#.
+           .+***###%##**#++==+**#%%#@@@@@@@@%%#*=:
+        .=+********+*###%#%@%#*+#@@@@@@@@@@%%######%#*-
+      .+***********++*****#@#%%%%%%%#@@%##########**#%%#:
+     .+*+++#**+*****+*****#@#*******#@%###########**@#%%#:
+    .=******#*++**********%@#######*#@%###########*#@#%%%*.
+    ++*#***#%***********#*%@#########@##########%#*%@@%@@#*
+   =*###%###%#*********###%@#########@#########%%%#@@@@@%#@+
+  :#*%%##%%%%#*********###%%#%%%####%@######%%%%@%%@@@@@%%@@.
+  *%##%@#%@%%*############%@%%%%####%@#####%%%@@@%%@@@@@@@@@+
+ .%%%%#%@%%%%%%%########%%%@%%%%####%@%%%%%%%@@@@@@@@@@%@@@@%
+ =%%%%%%@@@%%%%%%%##%%%%%%@@%%%%%%%%%@%%%%%%@@@@@@@@@@@@@@@%@:
 
                          almostalok
                   > BUILDER OF USEFUL CHAOS
@@ -78,21 +93,26 @@ $ echo $MOOD
 ## `$ system status`
 
 ```text
+SYSTEM STATUS
+────────────────────────────────────────────────────────────────────
 BUILDING       > Hospate                         [█████████░] 90%
 LEARNING       > System Design                   [███████░░░] 70%
 EXPLORING      > Product + Engineering           [██████░░░░] 60%
 OPEN_TO        > Interesting problems             [████████░░] 80%
 SLEEP          > command not found               [░░░░░░░░░░]  0%
 COFFEE         > absolutely required              [██████████] 100%
-```
 
-> `sleep.exe` has been deprecated. Nobody knows why. Nobody is fixing it.
+$ systemctl status sleep.service
+> Unit sleep.service could not be found.
+> Nobody knows why.
+> Nobody is fixing it.
+```
 
 ---
 
-## `$ currently_building`
+## `$ currently_building --verbose`
 
-### ⚔️ Hospate
+### `⚔️ Hospate`
 
 Cleaner workflows for real people — **not another dashboard built solely to impress a screenshot.**
 
@@ -114,22 +134,45 @@ ship
 "wait... this actually works"
 ```
 
-**Current upgrade quest:** full-stack depth + better architecture instincts.
+```bash
+$ cat ./current_mission.txt
 
-**Collab mode:** open-source projects where code solves an actual pain point.
-
-**Need backup on:** product feedback loops, DX polish and launch strategy.
+FULL_STACK_DEPTH=true
+ARCHITECTURE_INSTINCTS=UPGRADING
+OPEN_SOURCE=YES
+PRODUCT_FEEDBACK=ALWAYS_WELCOME
+DX_POLISH=IN_PROGRESS
+LAUNCH_STRATEGY=LOADING...
+```
 
 ---
 
-## `$ tech_stack --compact`
+## `$ tech_stack --all`
+
+```text
+┌─ FRONTEND ────────────────────────────────────────────────────────────┐
+│ HTML  CSS  JavaScript  TypeScript  React  Next.js  Tailwind          │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌─ BACKEND ─────────────────────────────────────────────────────────────┐
+│ Node.js  Express  Python  Java  NestJS  Spring  GraphQL              │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌─ DATA + INFRA ────────────────────────────────────────────────────────┐
+│ MongoDB  MySQL  PostgreSQL  Redis  Docker  AWS  Firebase  Linux      │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌─ BUILD TOOLS ─────────────────────────────────────────────────────────┐
+│ Git  Jest  Selenium  Electron  Figma  Arduino                        │
+└───────────────────────────────────────────────────────────────────────┘
+```
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,python,java&perline=10" alt="Core stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,python,java&perline=10" alt="Frontend and programming technologies" />
   <br /><br />
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis,docker,aws,git,linux,firebase,tailwind&perline=10" alt="Databases and infrastructure" />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis,docker,aws,git,linux,firebase,tailwind&perline=10" alt="Databases and infrastructure technologies" />
   <br /><br />
-  <img src="https://skillicons.dev/icons?i=graphql,electron,figma,jest,nestjs,spring,arduino,selenium&perline=10" alt="Additional tools" />
+  <img src="https://skillicons.dev/icons?i=graphql,electron,figma,jest,nestjs,spring,arduino,selenium&perline=10" alt="Additional technologies" />
 </p>
 
 ```text
@@ -138,57 +181,89 @@ frontend-first mindset  +  backend-driven discipline  +  product-focused executi
 
 ---
 
-## `$ github --3d-build`
+## `$ github --intelligence`
 
-### 🏙️ Contribution Skyline
+> Live-ish telemetry from the GitHub machine. If the graphs look impressive, I definitely planned it that way.
 
-This is the **3D version of the GitHub contribution calendar**. It is generated automatically by GitHub Actions and committed back into the profile repository.
+### `🏆 achievements.log`
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="96%" alt="3D GitHub contribution graph" />
+  <img src="https://github-profile-trophy.vercel.app/?username=almostalok&theme=radical&no-frame=false&no-bg=true&margin-w=8&row=2&column=4" width="96%" alt="GitHub trophies" />
 </p>
 
-<details>
-<summary><b>⚙️ How the 3D graph works</b></summary>
-
-<br />
-
-The companion workflow is included at:
-
-```text
-.github/workflows/profile-3d.yml
-```
-
-Run it once from **GitHub → Actions → GitHub-Profile-3D-Contrib → Run workflow**. The action then generates the `profile-3d-contrib/` SVGs and refreshes them daily.
-
-</details>
-
----
-
-## `$ github --stats`
+### `📊 github_stats --all`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=almostalok&show_icons=true&theme=radical&locale=en&hide_border=true&bg_color=0D1117" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=almostalok&show_icons=true&theme=radical&locale=en&layout=compact&hide_border=true&bg_color=0D1117" height="165" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=almostalok&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true" height="180" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=almostalok&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&langs_count=10" height="180" alt="Top programming languages" />
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=almostalok&theme=radical&hide_border=true&background=0D1117" alt="GitHub streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=almostalok&theme=radical&hide_border=true&background=0D1117" width="72%" alt="GitHub contribution streak" />
 </p>
 
+### `📈 activity --timeline`
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=almostalok&theme=react-dark&bg_color=0D1117&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" width="96%" alt="GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=almostalok&theme=react-dark&bg_color=0D1117&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true&custom_title=almostalok%20//%20commit%20telemetry" width="96%" alt="GitHub activity graph" />
 </p>
+
+### `🌐 contribution --3d`
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="96%" alt="3D GitHub contribution calendar" />
+</p>
+
+```bash
+$ cat .github/workflows/profile-3d.yml
+> Generates the 3D contribution skyline daily.
+> Manual trigger: GitHub → Actions → GitHub-Profile-3D-Contrib → Run workflow
+```
 
 ---
 
-## `$ git --commit-history`
+## `$ git --commit-history --visualize`
+
+### `🐍 snake_game`
+
+```text
+> Loading contribution grid...
+> Mapping commits...
+> Deploying snake...
+> Objective: eat every contribution before the deadline.
+```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/almostalok/almostalok/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+  <img src="https://raw.githubusercontent.com/almostalok/almostalok/output/github-contribution-grid-snake-dark.svg" width="96%" alt="GitHub contribution snake animation" />
 </p>
 
 <p align="center"><i>Yes. Even my commits get chased.</i></p>
+
+---
+
+## `$ github --deep_scan`
+
+```text
+METRIC CHANNELS
+────────────────────────────────────────────────────────────────────
+[01] CONTRIBUTION STATS      → commits / PRs / issues / stars
+[02] LANGUAGE MIX            → top languages by repository usage
+[03] STREAK TELEMETRY        → current contribution consistency
+[04] ACTIVITY GRAPH          → contribution timeline
+[05] TROPHY ENGINE           → GitHub achievements
+[06] 3D SKYLINE              → contribution calendar rendered in 3D
+[07] SNAKE ENGINE            → contribution grid, but make it edible
+[08] PROFILE SIGNAL          → followers + profile views
+```
+
+```bash
+$ ./interpret_stats.sh
+
+> Stats are signals, not the product.
+> A green square cannot deploy an API.
+> A trophy cannot fix production.
+> But hey... they look pretty cool.
+```
 
 ---
 
@@ -198,8 +273,12 @@ Run it once from **GitHub → Actions → GitHub-Profile-3D-Contrib → Run work
 AVAILABLE COMMANDS
 
   whoami              → know the human behind the commits
+  system_status       → inspect current operating condition
   currently_building  → inspect current battlefield
   tech_stack          → list weapons of choice
+  github              → interrogate the contribution machine
+  achievements        → display trophy collection
+  snake_game          → release the snake
   socials             → locate me on the internet
   coding_profiles     → challenge me in public
   life_advice         → highly questionable output
@@ -209,6 +288,10 @@ AVAILABLE COMMANDS
 $ life_advice
 > ship something useful before polishing the README.
 > yes, I realize the irony.
+
+$ sudo hire_me
+> permission granted.
+> let's build something worth shipping.
 ```
 
 ---
@@ -252,6 +335,11 @@ $ life_advice
 
 ## `$ blog --tail`
 
+```text
+> tail -f ~/ship_logs
+> waiting for next experiment...
+```
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
@@ -260,6 +348,13 @@ $ life_advice
 ---
 
 ## `$ support --coffee`
+
+```text
+$ ./keep_alok_shipping.sh
+> dependency detected: coffee
+> funding optional
+> appreciation: dangerously effective
+```
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/almostalok">
@@ -276,16 +371,19 @@ $ life_advice
 <div align="center">
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│  $ shutdown                                                  │
-│                                                              │
-│  "Still a work in progress...                               │
-│   but the commits are getting better."                      │
-│                                                              │
-│  made with ☕ + curiosity + questionable sleep schedules      │
-│                                                              │
-│  almostalok // end of process                                │
-└──────────────────────────────────────────────────────────────┘
+$ shutdown --graceful
+
+> process still running.
+> feature queue not empty.
+> curiosity still active.
+> sleep.service still missing.
+
+"Still a work in progress...
+but the commits are getting better."
+
+made with ☕ + curiosity + questionable sleep schedules
+
+almostalok // end of process
 ```
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
