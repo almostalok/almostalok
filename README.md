@@ -1,17 +1,20 @@
 <!-- ============================================================
 ALMOSTALOK // TERMINAL PROFILE
-Rendering notes:
-  - GitHub strips style / bgcolor / bordercolor. Color comes from
-    fenced code blocks with language hints instead.
-  - HTML tables are kept ONLY where side-by-side images are needed.
+Notes:
+  - GitHub strips style / bgcolor attributes, so colour comes from
+    fenced code blocks with language hints (ini, yaml, diff).
+  - ANSI escapes do NOT render in READMEs, so plain text is used.
+  - HTML tables are kept only where side-by-side images are needed.
 ============================================================= -->
 
 <div align="center">
 
-```ansi
-[0;35m┌─[0m [0;36m●[0m [0;33m●[0m [0;32m●[0m  [1;37malmostalok@github:~[0m [0;35m────────────────────────────────────────┐[0m
-[0;35m│[0m  [0;36mIndia 🇮🇳[0m   [0;33mCaffeine: 100%[0m   [0;32mstatus: shipping[0m              [0;35m│[0m
-[0;35m└────────────────────────────────────────────────────────────────┘[0m
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=640&lines=%24+whoami;Alok+Kumar+Singh+%2F%2F+%40almostalok;Developer+%2F+Product+Builder;Currently+building+Hospate;Ship+%3E+Perfection" alt="Typing animation" />
+
+```text
+┌─ ● ● ●  almostalok@github:~ ───────────────────────────────────┐
+│  India · Caffeine: 100% · status: shipping                     │
+└────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -26,8 +29,7 @@ Rendering notes:
 <td width="50%" valign="top">
 
 ```yaml
-almostalok@dev:~$ neofetch
-
+# $ neofetch
 Name:        Alok Kumar Singh
 Handle:      "@almostalok"
 Role:        Developer / Product Builder
@@ -64,17 +66,19 @@ Caffeine   = Necessary          ██████████ 100%
 + product decision
 + architecture
 + code
-+ bug
+- bug
 + fix
 + ship
 
 ! Not another dashboard built only to impress a screenshot.
 ! Real problems. Real users. Real impact.
+```
 
+```bash
 $ ./ship.sh
-  > compiling ideas...
-  > deleting unnecessary complexity...
-  > shipping anyway.
+> compiling ideas...
+> deleting unnecessary complexity...
+> shipping anyway.
 ```
 
 ---
@@ -101,9 +105,9 @@ frontend-first  •  backend-driven discipline  •  product-focused
 <div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,nestjs&perline=10" alt="Frontend and backend stack" />
 <br>
-<img src="https://skillicons.dev/icons?i=python,java,spring,graphql,mongodb,postgres,mysql,redis,docker,aws&perline=10" alt="Languages, data and infrastructure stack" />
+<img src="https://skillicons.dev/icons?i=python,java,graphql,mongodb,postgres,mysql,redis,docker,aws&perline=9" alt="Languages, data and infrastructure stack" />
 <br>
-<img src="https://skillicons.dev/icons?i=git,linux,firebase,figma,jest,electron,arduino,selenium&perline=8" alt="Tooling" />
+<img src="https://skillicons.dev/icons?i=git,linux,figma,jest,electron,arduino,selenium&perline=7" alt="Tooling" />
 </div>
 
 ---
@@ -120,7 +124,7 @@ frontend-first  •  backend-driven discipline  •  product-focused
 <table>
 <tr>
 <td width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=almostalok&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true&cache_seconds=86400" width="100%" alt="GitHub statistics" />
+<img src="https://github-readme-stats.vercel.app/api?username=almostalok&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&include_all_commits=true&cache_seconds=86400" width="100%" alt="GitHub statistics" />
 </td>
 <td width="50%">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=almostalok&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&langs_count=8&cache_seconds=86400" width="100%" alt="Most used languages" />
@@ -141,7 +145,7 @@ frontend-first  •  backend-driven discipline  •  product-focused
 ### `activity@dev:~$ ./graph`
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=almostalok&theme=react-dark&bg_color=0D1117&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true&custom_title=almostalok%20//%20commit%20telemetry" width="100%" alt="Contribution activity over the last year" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=almostalok&theme=react-dark&bg_color=0D1117&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true&custom_title=almostalok%20%2F%2F%20commit%20telemetry" width="100%" alt="Contribution activity over the last year" />
 <br><br>
 <img src="https://raw.githubusercontent.com/almostalok/almostalok/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution graph consumed by a snake animation" />
 </div>
@@ -154,29 +158,31 @@ frontend-first  •  backend-driven discipline  •  product-focused
 
 ### `connect@dev:~$ ./socials`
 
-```ini
-[links]
-Portfolio  = almostalok.tech
-Blog       = almostalokblogs.tech
-Resume     = almostalokresume.tech
-Twitter    = @almostalok
-LinkedIn   = /in/alokkumarsingh
-Instagram  = @almostalok
-YouTube    = /c/almostalok
-```
+| | |
+|:--|:--|
+| 🌐 Portfolio | [almostalok.tech](https://almostalok.tech) |
+| ✍️ Blog | [almostalokblogs.tech](https://almostalokblogs.tech) |
+| 📄 Resume | [almostalokresume.tech](https://almostalokresume.tech) |
+| 🐦 Twitter | [@almostalok](https://twitter.com/almostalok) |
+| 💼 LinkedIn | [/in/alokkumarsingh](https://linkedin.com/in/alokkumarsingh) |
+| 📸 Instagram | [@almostalok](https://instagram.com/almostalok) |
+| ▶️ YouTube | [/c/almostalok](https://youtube.com/c/almostalok) |
 
 </td>
 <td width="50%" valign="top">
 
 ### `coding_profiles@dev:~$ ./links`
 
-```ini
-[judges]
-LeetCode     HackerRank
-Codeforces   AtCoder
-CodeChef     GeeksforGeeks
-HackerEarth  Topcoder
+<!-- Replace each URL with your actual profile link -->
 
+| | |
+|:--|:--|
+| [LeetCode](https://leetcode.com/u/almostalok) | [HackerRank](https://www.hackerrank.com/profile/almostalok) |
+| [Codeforces](https://codeforces.com/profile/almostalok) | [AtCoder](https://atcoder.jp/users/almostalok) |
+| [CodeChef](https://www.codechef.com/users/almostalok) | [GeeksforGeeks](https://auth.geeksforgeeks.org/user/almostalok) |
+| [HackerEarth](https://www.hackerearth.com/@almostalok) | [Topcoder](https://www.topcoder.com/members/almostalok) |
+
+```ini
 ; challenge me in public.
 ```
 
@@ -212,15 +218,15 @@ clear     = Because clean terminals = happy mind
 
 ---
 
-```ansi
-[0;35malmostalok@dev:~$[0m ./shutdown
+```bash
+almostalok@dev:~$ ./shutdown
 
-[0;32m>[0m process still running.
-[0;32m>[0m feature queue not empty.
-[0;32m>[0m curiosity still active.
-[0;33m>[0m sleep.service still missing.
+> process still running.
+> feature queue not empty.
+> curiosity still active.
+> sleep.service still missing.
 
-[0;36m"Still a work in progress... but the commits are getting better."[0m
+# "Still a work in progress... but the commits are getting better."
 
-[0;35malmostalok // end of process[0m _
+almostalok // end of process _
 ```
