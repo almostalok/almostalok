@@ -116,7 +116,7 @@ viewer's light/dark setting automatically.
 
 **Alok Kumar Singh** (@almostalok) is a developer and product builder from India, currently building **Hospate**, a hospital ERP focused on cleaner workflows for real people. Philosophy: *Ship > Perfection.* Learning system design, exploring product and growth, open to exciting problems.
 
-**Stack:** HTML, CSS, JS, TS, React, Next, Tailwind · Node, Express, NestJS, Python, Java, GraphQL · MongoDB, PostgreSQL, MySQL, Redis, Docker, AWS · Git, Figma, Jest, Linux, Electron, Arduino, Selenium.
+**Stack:** HTML, CSS, JS, TS, React, Next, Tailwind · Node, Express, NestJS, Python, Java, GraphQL · Agentic Systems, Automations · MongoDB, PostgreSQL, MySQL, Redis, Docker, AWS · Git, Figma, Jest, Linux, Electron, Arduino, Selenium.
 
 </details>
 
