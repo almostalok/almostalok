@@ -12,6 +12,7 @@ Data sources (no token needed, a token only raises API limits):
   * repositories  : GitHub REST API, falling back to the public repositories tab
 """
 import calendar
+import math
 import datetime as dt
 import html
 import json
@@ -26,7 +27,6 @@ import urllib.request
 USER = os.environ.get("PROFILE_USER", "almostalok")
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("PROFILE_OUT", os.path.join(HERE, "..", "assets", "profile.svg"))
-PORTRAIT = os.path.join(HERE, "..", "assets", "portrait.txt")
 OFFLINE = os.environ.get("PROFILE_OFFLINE_DIR")  # testing only: read saved HTML instead of the network
 
 NAME_1, NAME_2 = "Alok Kumar", "Singh"
@@ -308,30 +308,92 @@ def render(days, repos):
                      + tx(bx + 43, by_ + 48, "H", 36, ORG, 900, "middle", disp=True)
                      + tx(bx + 82, by_ + 33, f'BUILDING <tspan fill="{ORG}" font-weight="700">HOSPATE</tspan>', 20, BONE, 500, ls=1.2)
                      + tx(bx + 82, by_ + 57, "HOSPITAL ERP", 14.5, GRY, 400, ls=1.6), 1.1))
-    # ascii portrait
-    rows = [r for r in open(PORTRAIT, encoding="utf-8").read().split("\n")]
-    rows = (rows + [""] * 41)[:41]
-    COLS = 78
-    cw, lh, fs = 5.9, 7.95, 9.8
-    AW, AH = COLS * cw, 41 * lh
-    HP = 20
-    rows = [r.ljust(COLS) for r in rows]
-    glyphs = sum(1 for r in rows for c in r if c != " ")
+    # ── 3D rotating bust: photo (front) / ASCII (back), true perspective via vertical strips ──
+    import base64
+    adir = os.path.join(HERE, "..", "assets")
+    art = json.load(open(os.path.join(adir, "portrait.json"), encoding="utf-8"))
+    b64 = base64.b64encode(open(os.path.join(adir, "avatar_duotone.webp"), "rb").read()).decode()
+    BW, BH, NS, DCAM = 300, 375, 30, 950
+    CXR, CYR = 757, 282
+    RL, DT = 18.0, 0.25
+    KF = int(RL / DT)
+    sw = BW / NS
 
-    def arows(strs, fill):
-        return "".join(f'<text x="0" y="{i * lh + lh * .82:.1f}" font-family="{MONO}" font-size="{fs}" fill="{fill}" textLength="{AW:.1f}" lengthAdjust="spacing" xml:space="preserve">{esc(s)}</text>'
-                       for i, s in enumerate(strs) if s.strip())
-    rnd = random.Random(11)
-    noise = ["".join(rnd.choice("@#%*+=-:.01/<>{}") for _ in range(COLS)) for _ in range(41)]
-    defs.append(f'<g id="art">{arows(rows, BONE)}</g><g id="artA">{arows(rows, ORG)}</g>')
-    defs.append(f'<mask id="mW" maskUnits="userSpaceOnUse" x="0" y="0" width="{AW:.0f}" height="{AH:.0f}"><rect width="{AW:.0f}" height="0" fill="#fff">{aloop("height", [(0, 0), (4, AH), (HP, AH)], HP, False)}</rect></mask>'
-                f'<mask id="mN" maskUnits="userSpaceOnUse" x="0" y="0" width="{AW:.0f}" height="{AH:.0f}"><rect width="{AW:.0f}" height="{AH:.0f}" fill="#fff">{aloop("y", [(0, 0), (4, AH), (HP, AH)], HP, False)}{aloop("height", [(0, AH), (4, 0), (HP, 0)], HP, False)}</rect></mask>'
-                f'<mask id="mS" maskUnits="userSpaceOnUse" x="0" y="0" width="{AW:.0f}" height="{AH:.0f}"><rect width="{AW:.0f}" height="22" y="-22" fill="#fff">{aloop("y", [(0, -22), (5, -22), (9.5, AH), (HP, AH)], HP, False)}</rect></mask>')
-    ax, ay = 524, 140
-    body.append(f'<g transform="translate({ax},{ay})"><g mask="url(#mN)" opacity=".55">{arows(noise, "#4A4A4A")}</g>'
-                f'<g>{aloop("opacity", [(0, 1), (HP - 1.4, 1), (HP - .3, 0), (HP, 0)], HP, False)}<use href="#art" mask="url(#mW)"/><use href="#artA" mask="url(#mS)"/></g></g>')
-    body.append(corner(ax - 14, 92, 1, 1) + corner(R0 - 4, 92, -1, 1) + corner(R0 - 14, 496, -1, -1))
-    body.append(cap(ax, ay + AH + 30, f"portrait.asc · {COLS}x41 · {glyphs:,} glyphs · regen {HP}s", "#5E5E5E", size=9.5))
+    def smooth(x):
+        x = min(max(x, 0.0), 1.0)
+        return x * x * (3 - 2 * x)
+
+    def base_angle(t):
+        if t < 5.5: return 0.0
+        if t < 7.5: return 180 * smooth((t - 5.5) / 2)
+        if t < 12: return 180.0
+        if t < 14: return 180 + 180 * smooth((t - 12) / 2)
+        return 360.0
+    thetas = [base_angle(k * DT) + 9 * math.sin(2 * math.pi * k * DT / 6) for k in range(KF + 1)]
+    ktimes = ";".join(f"{k / KF:.5f}" for k in range(KF + 1))
+    # defs: photo, ascii back face, strip clips
+    ar, ac = art["rows"], art["cols"]
+    lh_, fs_ = BH / ar, BH / ar * 1.1
+    brows = ""
+    for r in range(ar):
+        row, runs, cur_t, buf = art["chars"][r], [], None, ""
+        for ch_, tn in zip(row, art["tone"][r]):
+            if tn != cur_t and buf:
+                runs.append((cur_t, buf)); buf = ""
+            cur_t = tn; buf += ch_
+        if buf: runs.append((cur_t, buf))
+        if not row.strip(): continue
+        sp = "".join(f'<tspan fill="{ORG if t == "o" else BONE}">{esc(b)}</tspan>' for t, b in runs)
+        brows += f'<text x="{-BW / 2}" y="{-BH / 2 + r * lh_ + lh_ * .82:.2f}" font-family="{MONO}" font-size="{fs_:.2f}" textLength="{BW}" lengthAdjust="spacing" xml:space="preserve">{sp}</text>'
+    defs.append(f'<g id="bustF"><image href="data:image/webp;base64,{b64}" x="{-BW / 2}" y="{-BH / 2}" width="{BW}" height="{BH}" preserveAspectRatio="none"/></g><g id="bustB">{brows}</g>')
+    for j in range(NS):
+        c = -BW / 2 + sw * (j + .5)
+        defs.append(f'<clipPath id="sc{j}"><rect x="{c - sw / 2 - .6:.2f}" y="{-BH / 2 - 4}" width="{sw + 1.2:.2f}" height="{BH + 8}"/></clipPath>')
+
+    def layer(face):
+        out = ""
+        for j in range(NS):
+            c = -BW / 2 + sw * (j + .5)
+            tr, sc = [], []
+            for th in thetas:
+                cs, sn = math.cos(math.radians(th)), math.sin(math.radians(th))
+                if face == "F":
+                    z, X, a = c * sn, c * cs, cs
+                else:
+                    z, X, a = -c * sn, -c * cs, -cs
+                s_ = DCAM / (DCAM - z)
+                X *= s_; a *= s_
+                if abs(a) < .003: a = .003 if a >= 0 else -.003
+                tr.append(f"{CXR + X:.2f} {CYR}"); sc.append(f"{a:.4f} {s_:.4f}")
+            out += (f'<g><animateTransform attributeName="transform" type="translate" dur="{RL}s" repeatCount="indefinite" keyTimes="{ktimes}" values="{";".join(tr)}"/>'
+                    f'<g><animateTransform attributeName="transform" type="scale" dur="{RL}s" repeatCount="indefinite" keyTimes="{ktimes}" values="{";".join(sc)}"/>'
+                    f'<g transform="translate({-c:.2f},0)" clip-path="url(#sc{j})"><use href="#bust{face}"/></g></g></g>')
+        vis = ["1" if (math.cos(math.radians(th)) > 0.0) == (face == "F") else "0" for th in thetas]
+        return (f'<g opacity="1"><animate attributeName="opacity" dur="{RL}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{ktimes}" values="{";".join(vis)}"/>{out}</g>'), vis
+    front, visF = layer("F")
+    back, _ = layer("B")
+    # stage: orange corner brackets, turntable ring, compass tape
+    body.append(corner(580, 92, 1, 1) + corner(934, 92, -1, 1) + corner(934, 488, -1, -1))
+    body.append(f'<ellipse cx="{CXR}" cy="476" rx="150" ry="11" fill="none" stroke="{ORG}" stroke-opacity=".55"/>'
+                f'<ellipse cx="{CXR}" cy="476" rx="124" ry="8" fill="none" stroke="{ORG}" stroke-width="1.4" stroke-dasharray="3 9"><animate attributeName="stroke-dashoffset" from="0" to="-36" dur="3s" repeatCount="indefinite"/></ellipse>')
+    defs.append(f'<linearGradient id="fadeG" gradientUnits="userSpaceOnUse" x1="0" y1="{CYR + 112}" x2="0" y2="{CYR + BH / 2 + 4}"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>'
+                f'<mask id="bustfade" maskUnits="userSpaceOnUse" x="540" y="70" width="440" height="{CYR + BH / 2 + 10 - 70}"><rect x="540" y="70" width="440" height="{CYR + BH / 2 + 10 - 70}" fill="url(#fadeG)"/></mask>')
+    body.append(f'<g mask="url(#bustfade)">{once(front + back, .3, 0, .8)}</g>')
+    # compass tape that follows the rotation angle
+    tape = ""
+    for k in range(-30, 91):
+        x = CXR + 8 * k
+        major = (k % 9 == 0)
+        tape += f'<line x1="{x}" y1="{499}" x2="{x}" y2="{499 + (10 if major else 5)}" stroke="{BONE if major else GRY}" stroke-width="1"/>'
+        if major:
+            tape += tx(x, 523, f"{(k // 9 * 90) % 360:03d}", 9.5, GRY, anchor="middle")
+    shifts = ";".join(f"{-0.8 * th:.2f} 0" for th in thetas)
+    defs.append(f'<clipPath id="tapeclip"><rect x="{CXR - 120}" y="494" width="240" height="34"/></clipPath>')
+    body.append(f'<g clip-path="url(#tapeclip)"><g><animateTransform attributeName="transform" type="translate" dur="{RL}s" repeatCount="indefinite" keyTimes="{ktimes}" values="{shifts}"/>{tape}</g></g>'
+                f'<path d="M{CXR},497 l-5,-8 h10 z" fill="{ORG}"/>')
+    body.append(cap(548, 523, "ROT_Y", ORG, size=10) + cap(920, 523, "FACE:", GRY, "end", 9.5)
+                + f'<g opacity="1"><animate attributeName="opacity" dur="{RL}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{ktimes}" values="{";".join(visF)}"/>{cap(926, 523, "PHOTO", BONE, size=9.5)}</g>'
+                + f'<g opacity="0"><animate attributeName="opacity" dur="{RL}s" repeatCount="indefinite" calcMode="discrete" keyTimes="{ktimes}" values="{";".join("0" if v == "1" else "1" for v in visF)}"/>{cap(926, 523, "ASCII", ORG, size=9.5)}</g>')
 
     # ── stats strip ──
     sy = 540
